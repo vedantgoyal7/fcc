@@ -1,17 +1,30 @@
 {
-  "name": "fcc",
-  "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "name": "workspace",
+  "version": "1.0.0",
+  "description": ",-----.,--.                  ,--. ,---.   ,--.,-----.  ,------.     '  .--./|  | ,---. ,--.,--. ,-|  || o   \\  |  ||  .-.  \\ |  .---'     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \\  :|  `--,      '  '--'\\|  |' '-' ''  ''  '\\ `-' | .'  /   |  ||  '--'  /|  `---.      `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'     -----------------------------------------------------------------",
   "main": "server.js",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
   "dependencies": {
-    "async": "~0.2.8",
-    "express": "~3.2.4",
-    "socket.io": "~0.9.14"
-  },
-  "scripts": {
-    "start": "node server.js"
+    "async": "^0.2.10",
+    "body-parser": "^1.15.2",
+    "express": "^3.2.6",
+    "moment": "^2.14.1",
+    "moments": "^0.0.2",
+    "mongodb": "^2.2.4",
+    "socket.io": "^0.9.17"
   },
   "devDependencies": {},
-  "license": "ISC"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedantgoyal7/fcc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vedantgoyal7/fcc/issues"
+  },
+  "homepage": "https://github.com/vedantgoyal7/fcc#readme"
 }
